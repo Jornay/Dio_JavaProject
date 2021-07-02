@@ -1,10 +1,10 @@
-package com.lucasproject.personaapi;
+package one.digitalInnovation.personapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PersonaapiApplicationTests {
+class PersonapiApplicationTests {
 
 	@Test
 	void contextLoads() {
