@@ -25,7 +25,6 @@ public class PersonController {
     }
 
     @PostMapping
-    @ResponseStatus(HttpStatus.CREATED)
     public MessageResponseDTO createPerson( @RequestBody @Valid PersonDTO personDTO){
         return personService.createPerson(personDTO);
     }
@@ -40,4 +39,9 @@ public class PersonController {
         return personService.findById(id);
     }
 
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteById(Long id) throws PersonNotFoundException {
+        personService.delete(id);
+    }
 }
