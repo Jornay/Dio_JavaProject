@@ -1,4 +1,4 @@
-package one.digitalInnovation.personapi.entities;
+package one.digitalinnovation.personapi.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
