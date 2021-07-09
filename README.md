@@ -3,7 +3,7 @@
  [Digital Innovation One](https://web.digitalinnovation.one/) </h3> 
 
 ---
-<br>
+
 
 This repository will contain two different projects, personaAPI which consists of the basic production of a Rest API using Spring Boot; in short it will address problem solving in relation to managing people. 
 
@@ -12,7 +12,6 @@ This repository will contain two different projects, personaAPI which consists o
 It will also contain the second project which is a Rest API where in this case the possible Unit tests that can be used will be explored; in short, it will address an application aimed at managing beers and their existence validations.
 
 ---
-<br>
 
 <h2>
 Both can be better observed in their specific folders with more details on production, tools and even development:
@@ -27,7 +26,7 @@ Both can be better observed in their specific folders with more details on produ
 </h3>
 
 ---
-<br>
+
 
 <h3>
 This project was produced by Digital Innovation One 🔧<h3>
