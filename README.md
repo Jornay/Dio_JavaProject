@@ -20,10 +20,11 @@ Ambos podem ser melhor observados em suas determinadas pastas com mais detalhes 
 
 <h3> 
 
-- [PersonaAPI](https://github.com/Jornay/Dio_JavaProject/tree/main/personapi)</h3>
-<h3> 
+- [PersonaAPI](https://github.com/Jornay/Dio_JavaProject/tree/main/personapi)
 
-- [BeerApi](https://github.com/Jornay/Dio_JavaProject/tree/main/beer_api_with_testes)</h3>
+- [BeerApi](https://github.com/Jornay/Dio_JavaProject/tree/main/beer_api_with_testes)
+
+</h3>
 
 ---
 <br>
