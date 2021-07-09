@@ -1,21 +1,21 @@
-<h3>Projetos desenvolvidos durante bootcamp GFT START #2 Java produzido por 
+<h3>Projects developed during bootcamp GFT START # 2 Java produced by
 
  [Digital Innovation One](https://web.digitalinnovation.one/) </h3> 
 
 ---
 <br>
 
-Nesse repositório irá conter dois projetos diferentes, personaAPI que se consiste na produção básica de uma API Rest utilizando Spring Boot; em suma ele irá abordar a resolução de problemas em relação a gerenciamento de pessoas. 
+This repository will contain two different projects, personaAPI which consists of the basic production of a Rest API using Spring Boot; in short it will address problem solving in relation to managing people. 
 
 <br>
 
-Também irá conter o segundo projeto que é uma API Rest onde nesse caso será explorado os possíveis testes Unitários que podem ser utilizados; em suma ele irá abordar uma aplicação que visa o geenciamento de cervejas e as suas validações de existência.
+It will also contain the second project which is a Rest API where in this case the possible Unit tests that can be used will be explored; in short, it will address an application aimed at managing beers and their existence validations.
 
 ---
 <br>
 
 <h2>
-Ambos podem ser melhor observados em suas determinadas pastas com mais detalhes de produção, ferramentas e até desenvolvimento:
+Both can be better observed in their specific folders with more details on production, tools and even development:
 <h2>
 
 <h3> 
@@ -29,5 +29,6 @@ Ambos podem ser melhor observados em suas determinadas pastas com mais detalhes 
 ---
 <br>
 
-<h3>Esse projeto foi produzido por Digital Innovation One 🔧<h3>
-<h3>Esse projeto foi desenvolvido por Lucas de Abreu (Jornay) ⚒ <h3>
+<h3>
+This project was produced by Digital Innovation One 🔧<h3>
+<h3>This project was developed by Lucas de Abreu(Jornay) ⚒ <h3>
