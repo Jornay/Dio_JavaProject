@@ -113,6 +113,31 @@ public class BeerServiceTest {
         assertThrows(BeerNotFoundException.class,() -> beerService.findByName(expectedFoundBeerDto.getName()));
     }
 
+    @Test
+    void whenListAllCalled(){
+        BeerDTO expectedFoundBeerDto = BeerDTOBuilder.builder().build().toBeerDTO();
+        Beer expectedFoundBeer = beerMapper.toModel(expectedFoundBeerDto);
+
+        //when
+        when(beerRepository.findAll()).thenReturn(Collections.singletonList(expectedFoundBeer));
+
+        //then
+        List<BeerDTO> foundBeerDto = beerService.listAll();
+
+        assertThat(foundBeerDto, is(not(empty())));
+        assertThat(foundBeerDto.get(0), is(equalTo(expectedFoundBeerDto)));
+    }
+
+    @Test
+    void whenEmptyListCalled(){
+        //when
+        when(beerRepository.findAll()).thenReturn(Collections.EMPTY_LIST);
+
+        //then
+        List<BeerDTO> foundBeerDto = beerService.listAll();
+
+        assertThat(foundBeerDto, is(empty()));
+    }
 
 //
 //    @Test
