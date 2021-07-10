@@ -139,6 +139,22 @@ public class BeerServiceTest {
         assertThat(foundBeerDto, is(empty()));
     }
 
+    @Test
+    void whenBeerExclusionIsValid() throws BeerNotFoundException {
+        BeerDTO expectedDeletedBeerDto = BeerDTOBuilder.builder().build().toBeerDTO();
+        Beer expectedDeletedBeer = beerMapper.toModel(expectedDeletedBeerDto);
+
+        //when
+        when(beerRepository.findById(expectedDeletedBeerDto.getId())).thenReturn(Optional.of(expectedDeletedBeer));
+        doNothing().when(beerRepository).deleteById(expectedDeletedBeerDto.getId());
+
+        //then
+        beerService.deleteById(expectedDeletedBeerDto.getId());
+
+        verify(beerRepository, times(1)).findById(expectedDeletedBeerDto.getId());
+        verify(beerRepository, times(1)).deleteById(expectedDeletedBeerDto.getId());
+
+    }
 //
 //    @Test
 //    void whenDecrementIsCalledThenDecrementBeerStock() throws BeerNotFoundException, BeerStockExceededException {
