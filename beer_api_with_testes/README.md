@@ -1,56 +1,58 @@
-<h2>Digital Innovation: Expert class - Desenvolvimento de testes unitários para validar uma API REST de gerenciamento de estoques de cerveja.</h2>
+<h2>Digital Innovation: Expert class - Development of unit tests to validate a beer inventory management REST API.</h2>
 
-Nesta live coding, vamos aprender a testar, unitariamente, uma API REST para o gerenciamento de estoques de cerveja. Vamos desenvolver testes unitários para validar o nosso sistema de gerenciamento de estoques de cerveja, e também apresentar os principais conceitos e vantagens de criar testes unitários com JUnit e Mockito. Além disso, vamos também mostrar como desenvolver funcionalidades da nossa API através da prática do TDD.
+In this live coding, we will learn how to test, unitarily, a REST API for managing beer stocks. We will develop unit tests to validate our beer inventory management system, as well as introduce the main concepts and advantages of creating unit tests with JUnit and Mockito. In addition, we will also show you how to develop our API functionality through TDD practice.
 
-Durante a sessão, serão abordados os seguintes tópicos:
+During the session, the following topics will be covered:
 
-* Baixar um projeto através do Git para desenolver nossos testes unitários. 
-* Apresentação conceitual sobre testes: a pirâmide dos tipos de testes, e também a importância de cada tipo de teste durante o ciclo de desenvolvimento.
-* Foco nos testes unitários: mostrar o porque é importante o desenvolvimento destes tipos de testes como parte do ciclo de desenvolvimento de software.
-* Principais frameworks para testes unitários em Java: JUnit, Mockito e Hamcrest. 
-* Desenvolvimento de testes unitários para validação de funcionalides básicas: criação, listagem, consulta por nome e exclusão de cervejas.
-* TDD: apresentação e exemplo prático em 2 funcionaliades importantes: incremento e decremento do número de cervejas no estoque.
+* Download a project via Git to develop our unit tests.
+* Testing Conceptual Presentation: The Test Type Pyramid, as well as the importance of each test type during the development cycle.
+* Focus on unit tests: show why it is important to develop these types of tests as part of the software development cycle.
+* Main frameworks for unit testing in Java: JUnit, Mockito and Hamcrest. 
+* Development of unit tests for validation of basic functionalities: creation, listing, query by name and exclusion of beers.
+* TDD: presentation and practical example in 2 important functionalities: increase and decrease in the number of beers in stock.
 
-Para executar o projeto no terminal, digite o seguinte comando:
+To run the project on the terminal, type the following command:
 
 ```shell script
 mvn spring-boot:run 
 ```
 
-Para executar a suíte de testes desenvolvida durante a live coding, basta executar o seguinte comando:
+To run the test suite developed during live coding, just run the following command:
 
 ```shell script
 mvn clean test
 ```
 
-Após executar o comando acima, basta apenas abrir o seguinte endereço e visualizar a execução do projeto:
+After executing the above command, just open the following address and view the project execution:
 
 ```
 http://localhost:8080/api/v1/beers
 ```
 
-São necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
+The following prerequisites are necessary for the execution of the project developed during the class:
 
-* Java 14 ou versões superiores.
-* Maven 3.6.3 ou versões superiores.
-* Intellj IDEA Community Edition ou sua IDE favorita.
-* Controle de versão GIT instalado na sua máquina.
-* Muita vontade de aprender e compartilhar conhecimento :)
+* Java 14 or higher versions.
+* Maven 3.6.3 or higher versions..
+* Intellj IDEA Community Edition or your favorite IDE.
+* GIT version control installed on your machine.
+* Willing to learn and share knowledge :)
 
-Abaixo, seguem links bem bacanas, sobre tópicos mencionados durante a aula:
+Below, there are some nice links about topics mentioned during the class:
 
-* [SDKMan! para gerenciamento e instalação do Java e Maven](https://sdkman.io/)
-* [Referência do Intellij IDEA Community, para download](https://www.jetbrains.com/idea/download)
-* [Palheta de atalhos de comandos do Intellij](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
-* [Site oficial do Spring](https://spring.io/)
-* [Site oficial JUnit 5](https://junit.org/junit5/docs/current/user-guide/)
-* [Site oficial Mockito](https://site.mockito.org/)
-* [Site oficial Hamcrest](http://hamcrest.org/JavaHamcrest/)
-* [Referências - testes em geral com o Spring Boot](https://www.baeldung.com/spring-boot-testing)
-* [Referência para o padrão arquitetural REST](https://restfulapi.net/)
-* [Referência pirâmide de testes - Martin Fowler](https://martinfowler.com/articles/practical-test-pyramid.html#TheImportanceOftestAutomation)
+* [SDKMan! for managing and installing Java and Maven](https://sdkman.io/)
+* [Intellij IDEA Community Reference, Downloadable](https://www.jetbrains.com/idea/download)
+* [Intellij Command Shortcut Palette](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
+* [Spring's official website](https://spring.io/)
+* [JUnit 5 official website](https://junit.org/junit5/docs/current/user-guide/)
+* [Mockito official website](https://site.mockito.org/)
+* [Hamcrest official website](http://hamcrest.org/JavaHamcrest/)
+* [References - testing in general with Spring Boot](https://www.baeldung.com/spring-boot-testing)
+* [Reference to the REST architectural standard](https://restfulapi.net/)
+* [Test Pyramid Reference - Martin Fowler](https://martinfowler.com/articles/practical-test-pyramid.html#TheImportanceOftestAutomation)
 
-[Neste link](https://drive.google.com/file/d/1KPh19mvyKirorOI-UsEYHKkmZpet3Ks6/view?usp=sharing), seguem os slides apresentados como o roteiro utilizado para o desenvolvimento do projeto da nossa sessão.
+[On this Link](https://drive.google.com/file/d/1KPh19mvyKirorOI-UsEYHKkmZpet3Ks6/view?usp=sharing), follow the slides presented as the roadmap used for the development of our session project.
 
-
+<h3>
+This project was produced by Digital Innovation One 🔧<h3>
+<h3>This project was developed by Lucas de Abreu(Jornay) ⚒ <h3>
 
